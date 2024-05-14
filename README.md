@@ -2,20 +2,23 @@
  * @Author: lvnini lv@lvnini.cn
  * @Date: 2021-07-02 10:50:12
  * @LastEditors: lvnini lv@lvnini.cn
- * @LastEditTime: 2024-05-14 15:11:22
+ * @LastEditTime: 2024-05-14 15:25:07
  * @FilePath: /redbook/Users/lvnini/www/npm/react-native-baidu-mtj-sdk/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 
 # react-native-baidu-mtj-sdk
 此项目由[react-native-baidu-mtj](https://github.com/EsunR/react-native-baidu-mtj) fork 而来
+
 百度统计移动端 React Native 版本无埋点 SDK，解决了官方 RN 模块版本过低的问题，并加入了 ts 支持
 
 # 使用方法
 
 ## 安装
 `$ yarn add react-native-baidu-mtj-sdk`
+
 或
+
 `$ yarn add react-native-baidu-mtj-sdk`
 
 低版本 React Native 需要手动建立连接
