@@ -1,0 +1,34 @@
+{
+  "name": "react-native-baidu-mtj-sdk",
+  "version": "2.0.7",
+  "description": "react-native-baidu-mtj-sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "baiduMtj",
+    "mtj",
+    "baidu"
+  ],
+  "author": {
+    "name": "lvnini"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.13.0",
+    "react-native": "^0.61.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvnini/react-native-udesk-sdk.git"
+  },
+  "homepage": "https://github.com/lvnini/react-native-baidu-mtj-sdk"
+}
