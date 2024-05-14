@@ -64,7 +64,6 @@ public class RNBaiduMtjModule extends ReactContextBaseJavaModule {
     public void getTestDeviceId() {
         String testDeviceId = StatService.getTestDeviceId(this.reactContext);
         android.util.Log.d("getTestDeviceId", "Test DeviceId : " + testDeviceId);
-        Log.i("getTestDeviceId", "Test DeviceId : "+ testDeviceId);
     }
 
 
