@@ -1,6 +1,7 @@
 
 package com.reactlibrary;
 
+import android.content.Context;
 import android.text.TextUtils;
 
 import com.baidu.mobstat.ExtraInfo;
@@ -58,6 +59,10 @@ public class RNBaiduMtjModule extends ReactContextBaseJavaModule {
         StatService.setAuthorizedState(this.reactContext, true);
         StatService.start(this.reactContext);
         StatService.autoTrace(this.reactContext, true, true);
+    }
+
+    public static void authorized(Context context) {
+        StatService.setAuthorizedState(context, false);
     }
 
     @ReactMethod
